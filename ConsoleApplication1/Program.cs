@@ -12,8 +12,8 @@ namespace ConsoleApplication1
         {
             C c = new C();
             //c.S1();
-            c.S2();
-            //c.S5();
+            //c.S2();
+            c.S5();
             //c.S6();
             //c.S7();
             //c.V2();
