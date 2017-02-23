@@ -16,7 +16,7 @@ namespace ConsoleApplication1
 
         public void S2()
         {
-            Console.WriteLine("A:S2");
+            Console.WriteLine("A::S2");
             S1();
         }
 
