@@ -19,7 +19,7 @@ namespace ConsoleApplication1
             V2();
         }
 
-        protected void V2()
+        public virtual void V2()
         {
             Console.WriteLine("D::V2");
             S7();

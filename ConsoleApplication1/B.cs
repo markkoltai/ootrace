@@ -24,13 +24,13 @@ namespace ConsoleApplication1
             Console.WriteLine("B::S3");
         }
 
-        public void V2()
+        public virtual void V2()
         {
             Console.WriteLine("B::V2");
             V1();
         }
 
-        protected void V1()
+        protected virtual void V1()
         {
             Console.WriteLine("B::V1");
             S5();
